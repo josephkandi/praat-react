@@ -4,10 +4,11 @@ import './index.module.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Nickname from './components/Nickname';
+import MainChat from './components/MainChat';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nickname />
+    <MainChat />
   </React.StrictMode>,
   document.getElementById('root')
 );
